@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+    function computerPlay(){
+        switch(Math.floor(Math.random() * 3)) {
+          case 0: return "Rock";
+          case 1: return "Scissors";
+          case 2: return "Paper";
+         
+        }
+    }
+    function playRound(playerSelection, computerSelection){
+        if (playerSelection === "Rock" && computerSelection === "Paper") {
+        return("You Lose! Paper beats Rock") 
+      }
+    else if (playerSelection === "Rock" &&  computerSelection === "Scissors") {
+    return("You win! Rock beats Scissors");
+    }
+    else if(playerSelection === "Rock" && computerSelection === "Rock"){
+      return("Tie!")
+    }
+  } 
+const playerSelection = "Rock";
+const computerSelection = computerPlay();
+console.log(playRound(playerSelection, computerSelection));
+  </script>
+</body>
+</html>
