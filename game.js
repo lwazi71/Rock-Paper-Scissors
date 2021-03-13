@@ -51,23 +51,23 @@ function playRound(playerSelection, computerSelection){
   }
 
 function game(){
-playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
+playerSelection = window.prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
 computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
 
-playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
+playerSelection = window.prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
 computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
 
-playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
+playerSelection = window.prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
 computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
 
-playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
+playerSelection = window.prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
 computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
 
-playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
+playerSelection = window.prompt("Enter Rock, Paper, or Scissors").toLowerCase("");
 computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
 
