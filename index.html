@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Rock Paper Scissors Game!</title>
-  <script src= "game.js">
-  </script>
+    <link rel="icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/f22b1a539a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<div class = "players">
+<div class = "playertext">
+        Player
+    </div>
+<div class = "computertext">
+        Computer
+    </div>
+</div>
+
+<div id = "scores">
+<div id = 'pscore'>
+</div>
+<div id = 'cscore'>
+</div>
+</div>
+
+    <div id = "buttons">
+
+        <i class="fa fa-hand-paper-o" id = "paper" aria-hidden="true"></i>
+        <i class="fa fa-hand-rock-o" id = "rock" aria-hidden="true"></i>
+        <i class="fa fa-hand-scissors-o" id = "scissors" aria-hidden="true"></i>
+        <div id = 'winner'></div>
+        <i id = "sad"></i>
+        <i id = "smile"></i>
+    
+    <div id = "currentRound"></div>
+    
+    <script src ="game.js"></script>
 </body>
 </html>
