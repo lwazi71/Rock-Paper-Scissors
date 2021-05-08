@@ -1,0 +1,62 @@
+html,body{
+    font-size:45px;
+}
+
+
+.players{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.playertext {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.computertext {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+#scores{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+    flex-direction: row;
+    margin: 0 15px;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.newText{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size:32px;
+}
+
+#winner{
+    font-size:35px; 
+    margin-top: 30px;
+}
+
+i{
+    font-size: 70px;
+}

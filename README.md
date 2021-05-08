@@ -1,2 +1,2 @@
 Rock Paper Scissors application
-Please view in console for now to see results
+Built from TheOdinProject using HTML,CSS,and JavaScript. I Leanred about 
