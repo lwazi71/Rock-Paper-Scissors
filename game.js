@@ -1,3 +1,4 @@
+// selects html ID's with DOM// 
 var rock = document.querySelector('#rock');
 var paper = document.querySelector('#paper');
 var scissors = document.querySelector('#scissors');
@@ -11,7 +12,7 @@ var frown = document.querySelector('#frown');
 
 const newText = document.createElement('div');
 newText.classList.add('newText');
-
+//Variables// 
 let computerScore = 0;
 let playerScore = 0; 
 
@@ -23,7 +24,7 @@ let playerSelection;
 let currentScore = `
 Player: ${playerScore}
 Computer: ${computerScore}`;
-
+//Event Listeners for icons//
 sad.addEventListener('click', function () {
   location.reload();
   return false;
@@ -47,7 +48,7 @@ scissors.addEventListener('click', function () {
 
  
 });
-
+//Computer A.I Function//
 function computerPlay(){
     switch(Math.floor(Math.random() * 3)) {
       case 0: return "Rock";
@@ -55,11 +56,14 @@ function computerPlay(){
       case 2: return "Paper";
     }
 }
+// Function to update score// 
 function newScore() {
   currentScore = `
   Player: ${playerScore}
   Computer: ${computerScore}`;
 }
+
+//Game function//
 function playRound(playerSelection) {
 
   let computerSelection = computerPlay();
@@ -135,6 +139,7 @@ function playRound(playerSelection) {
     }
 
 } 
+//Function which determines Score// 
 function determineScore(playerSelection) {
         
    playRound(playerSelection);
