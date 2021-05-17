@@ -63,3 +63,11 @@ html,body{
 i{
     font-size: 70px;
 }
+
+#smile {
+    color: green;
+}
+
+#sad {
+    color: red;
+}
