@@ -1,15 +1,18 @@
+
+/* html body font size */
 html,body{
     font-size:45px;
 }
 
 
+/* computer and player div */
 .players{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
 }
-
+/* player on left */
 .playertext {
     justify-content: center;
     display: flex;
@@ -18,7 +21,7 @@ html,body{
     width: 100%;
     text-align: center;
 }
-
+/* computer on right */
 .computertext {
     justify-content: center;
     display: flex;
@@ -27,7 +30,7 @@ html,body{
     width: 100%;
     text-align: center;
 }
-
+/* scores */
 #scores{
     justify-content: space-around;
     display: flex;
@@ -35,7 +38,7 @@ html,body{
     flex-wrap: wrap;
     text-align: center;
 }
-
+/* icons */
 #buttons{
     text-align: center;
     flex-direction: row;
@@ -43,7 +46,7 @@ html,body{
     padding:10px;
     border-radius: 50%;
 }
-
+/* Round Div */
 .newText{
     justify-content: center;
     display: flex;
@@ -51,12 +54,12 @@ html,body{
     margin-top: 30px;
     font-size:32px;
 }
-
+/* Winner Div */
 #winner{
     font-size:35px; 
     margin-top: 30px;
 }
-
+/* Icon font size */
 i{
     font-size: 70px;
 }
