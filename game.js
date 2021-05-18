@@ -49,12 +49,11 @@ scissors.addEventListener('click', function () {
  
 });
 //Computer A.I Function//
-function computerPlay(){
-    switch(Math.floor(Math.random() * 3)) {
-      case 0: return "Rock";
-      case 1: return "Scissors";
-      case 2: return "Paper";
-    }
+
+const myArray = ["Rock", "Paper", "Scissors"];
+
+function computerPlay() {
+  return myArray[~~(Math.random() * myArray.length)];
 }
 // Function to update score// 
 function newScore() {
